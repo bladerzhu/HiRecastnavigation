@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Contrib\fastlz\fastlz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\ChunkyTriMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\ConvexVolumeTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\CrowdTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\Filelist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\InputGeom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\MeshLoaderObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\NavMeshPruneTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\NavMeshTesterTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\OffMeshConnectionTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\PerfTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\Sample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\SampleInterfaces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\Sample_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\Sample_SoloMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\Sample_TempObstacles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\Sample_TileMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\TestCase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\ValueHistory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\imguiRenderGL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\MyGit\github\recastnavigation\RecastDemo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{02C9CD33-97D4-394A-A998-87008863275A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,37 @@
+﻿  Building Custom Rule D:/MyGit/github/recastnavigation/Tests/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/tanxiaoliang.hiram/Desktop/vs/Tests/CMakeFiles/generate.stamp is up-to-date.
+  Tests_Detour.cpp
+  Tests_Recast.cpp
+d:\mygit\github\recastnavigation\recast\include\recastalloc.h(99): warning C4291: “void *operator new(size_t,const rcNewTag &,void *)”: 未找到匹配的删除运算符；如果初始化引发异常，则不会释放内存
+  d:\mygit\github\recastnavigation\recast\include\recastalloc.h(68): note: 参见“operator new”的声明
+  d:\mygit\github\recastnavigation\recast\include\recastalloc.h(99): note: 编译 类 模板 成员函数 "void rcVectorBase<T,RC_ALLOC_TEMP>::construct(T *,const T &)" 时
+          with
+          [
+              T=Copier
+          ]
+  d:\mygit\github\recastnavigation\recast\include\recastalloc.h(194): note: 参见对正在编译的函数 模板 实例化“void rcVectorBase<T,RC_ALLOC_TEMP>::construct(T *,const T &)”的引用
+          with
+          [
+              T=Copier
+          ]
+  d:\mygit\github\recastnavigation\recast\include\recastalloc.h(275): note: 参见对正在编译的 类 模板 实例化 "rcVectorBase<T,RC_ALLOC_TEMP>" 的引用
+          with
+          [
+              T=Copier
+          ]
+  d:\mygit\github\recastnavigation\tests\recast\tests_recast.cpp(1010): note: 参见对正在编译的 类 模板 实例化 "rcTempVector<Copier>" 的引用
+d:\mygit\github\recastnavigation\recast\include\recastalloc.h(100): warning C4291: “void *operator new(size_t,const rcNewTag &,void *)”: 未找到匹配的删除运算符；如果初始化引发异常，则不会释放内存
+  d:\mygit\github\recastnavigation\recast\include\recastalloc.h(68): note: 参见“operator new”的声明
+  d:\mygit\github\recastnavigation\recast\include\recastalloc.h(100): note: 编译 类 模板 成员函数 "void rcVectorBase<T,RC_ALLOC_TEMP>::construct(T *)" 时
+          with
+          [
+              T=Copier
+          ]
+  d:\mygit\github\recastnavigation\recast\include\recastalloc.h(250): note: 参见对正在编译的函数 模板 实例化“void rcVectorBase<T,RC_ALLOC_TEMP>::construct(T *)”的引用
+          with
+          [
+              T=Copier
+          ]
+  main.cpp
+  正在生成代码...
+  Tests.vcxproj -> C:\Users\tanxiaoliang.hiram\Desktop\vs\Tests\Debug\Tests.exe
