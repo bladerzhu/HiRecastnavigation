@@ -7,10 +7,11 @@ public class NewBehaviourScript : MonoBehaviour
 {
     [DllImport("HiRecastnavigation")]
     private static extern int MyADD(int x, int y);
-    int i = MyADD(5, 7);
+   
     // Use this for initialization
     void Start()
     {
+        int i = MyADD(9, 9);
         Debug.LogError(i);
     }
 
