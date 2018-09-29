@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  HiRecastnavigation.cpp
+  HiRecastnavigationTest.cpp
+  正在生成代码...
+    正在创建库 D:\MyGit\github\HiRecastnavigation\visual\HiRecastnavigation\x64\Debug\HiRecastnavigation.lib 和对象 D:\MyGit\github\HiRecastnavigation\visual\HiRecastnavigation\x64\Debug\HiRecastnavigation.exp
+  HiRecastnavigation.vcxproj -> D:\MyGit\github\HiRecastnavigation\visual\HiRecastnavigation\x64\Debug\HiRecastnavigation.dll
