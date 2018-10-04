@@ -3,6 +3,8 @@
 
 ## 未完成
 
+Solution for using recastnavigation in unity and server side, so that they both use same logic and navigation data, and of course the path finding result are matched.
+
 
 ##### 本项目基于recastnavigation,官方源码链接:[https://github.com/recastnavigation/recastnavigation](https://github.com/recastnavigation/recastnavigation)
 ##### 为了防止官方源码一直持续更新造成的接口不兼容问题,迁出官方1.5.0版本,本项目基于recastnavigation 1.5.0版本创建.
@@ -19,10 +21,16 @@
 
 #### 如何使用?
 1.在unity编辑器菜单栏中点击导出场景数据
+
 2.打开RecastDemo,选择导出的场景数据.
+
 3.编辑参数(半径,爬坡高度等等)
+
 4.导出导航数据
+
 5.将导航数据一份给客户端,一份给服务器
+
 6.加载导航数据,使用导航逻辑
+
 7.结束
 
