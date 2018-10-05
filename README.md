@@ -1,6 +1,6 @@
 # HiRecastnavigation
 
-
+## Haven't Finish
 ## 未完成
 
 Solution for using recastnavigation in unity and server side, they both use same logic and navigation data, so that the path finding result will be matched.
