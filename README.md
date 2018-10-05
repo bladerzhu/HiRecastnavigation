@@ -3,7 +3,7 @@
 
 ## 未完成
 
-Solution for using recastnavigation in unity and server side, so that they both use same logic and navigation data, and of course the path finding result are matched.
+Solution for using recastnavigation in unity and server side, they both use same logic and navigation data, so that the path finding result will be matched.
 
 
 ##### 本项目基于recastnavigation,官方源码链接:[https://github.com/recastnavigation/recastnavigation](https://github.com/recastnavigation/recastnavigation)
