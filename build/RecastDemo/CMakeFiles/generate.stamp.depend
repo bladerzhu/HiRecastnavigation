@@ -3,5 +3,5 @@ C:/Program Files/CMake/share/cmake-3.12/Modules/FindOpenGL.cmake
 C:/Program Files/CMake/share/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake
 C:/Program Files/CMake/share/cmake-3.12/Modules/FindPackageMessage.cmake
 C:/Program Files/CMake/share/cmake-3.12/Modules/FindPkgConfig.cmake
-D:/MyGit/github/recastnavigation/RecastDemo/CMakeLists.txt
-D:/MyGit/github/recastnavigation/RecastDemo/cmake/FindSDL2.cmake
+D:/MyGit/github/HiRecastnavigation/recastnavigation/RecastDemo/CMakeLists.txt
+D:/MyGit/github/HiRecastnavigation/recastnavigation/RecastDemo/cmake/FindSDL2.cmake

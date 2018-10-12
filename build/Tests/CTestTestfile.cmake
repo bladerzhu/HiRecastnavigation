@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: D:/MyGit/github/recastnavigation/Tests
-# Build directory: C:/Users/tanxiaoliang.hiram/Desktop/vs/Tests
+# Source directory: D:/MyGit/github/HiRecastnavigation/recastnavigation/Tests
+# Build directory: D:/MyGit/github/HiRecastnavigation/build/Tests
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

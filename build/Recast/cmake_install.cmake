@@ -1,4 +1,4 @@
-# Install script for directory: D:/MyGit/github/recastnavigation/Recast
+# Install script for directory: D:/MyGit/github/HiRecastnavigation/recastnavigation/Recast
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,21 +34,21 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/tanxiaoliang.hiram/Desktop/vs/Recast/Debug/Recast.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/MyGit/github/HiRecastnavigation/build/Recast/Debug/Recast.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/tanxiaoliang.hiram/Desktop/vs/Recast/Release/Recast.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/MyGit/github/HiRecastnavigation/build/Recast/Release/Recast.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/tanxiaoliang.hiram/Desktop/vs/Recast/MinSizeRel/Recast.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/MyGit/github/HiRecastnavigation/build/Recast/MinSizeRel/Recast.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/tanxiaoliang.hiram/Desktop/vs/Recast/RelWithDebInfo/Recast.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/MyGit/github/HiRecastnavigation/build/Recast/RelWithDebInfo/Recast.lib")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "D:/MyGit/github/recastnavigation/Recast/Include/Recast.h"
-    "D:/MyGit/github/recastnavigation/Recast/Include/RecastAlloc.h"
-    "D:/MyGit/github/recastnavigation/Recast/Include/RecastAssert.h"
+    "D:/MyGit/github/HiRecastnavigation/recastnavigation/Recast/Include/Recast.h"
+    "D:/MyGit/github/HiRecastnavigation/recastnavigation/Recast/Include/RecastAlloc.h"
+    "D:/MyGit/github/HiRecastnavigation/recastnavigation/Recast/Include/RecastAssert.h"
     )
 endif()
 

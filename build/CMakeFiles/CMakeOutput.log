@@ -9,8 +9,8 @@ The output was:
 ���� .NET Framework �� Microsoft (R) ��������汾 15.7.179.6572
 ��Ȩ����(C) Microsoft Corporation����������Ȩ����
 
-��������ʱ��Ϊ 2018/9/27 15:42:04��
-�ڵ� 1 �ϵ���Ŀ��C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\3.12.2\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
+��������ʱ��Ϊ 2018/10/12 18:03:45��
+�ڵ� 1 �ϵ���Ŀ��D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\3.12.2\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
 PrepareForBuild:
   ���ڴ���Ŀ¼��Debug\����
   ���ڴ���Ŀ¼��Debug\CompilerIdC.tlog\����
@@ -21,7 +21,7 @@ ClCompile:
   CMakeCCompilerId.c
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\3.12.2\CompilerIdC\.\CompilerIdC.exe
+  CompilerIdC.vcxproj -> D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\3.12.2\CompilerIdC\.\CompilerIdC.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
   :VCEnd
@@ -29,20 +29,20 @@ PostBuildEvent:
 FinalizeBuildStatus:
   ����ɾ���ļ���Debug\CompilerIdC.tlog\unsuccessfulbuild����
   ���ڶԡ�Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate��ִ�� Touch ����
-�����������Ŀ��C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\3.12.2\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+�����������Ŀ��D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\3.12.2\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
 
 �ѳɹ����ɡ�
     0 ������
     0 ������
 
-����ʱ�� 00:00:00.97
+����ʱ�� 00:00:01.05
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is MSVC, found in "C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/3.12.2/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is MSVC, found in "D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/3.12.2/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
@@ -54,8 +54,8 @@ The output was:
 ���� .NET Framework �� Microsoft (R) ��������汾 15.7.179.6572
 ��Ȩ����(C) Microsoft Corporation����������Ȩ����
 
-��������ʱ��Ϊ 2018/9/27 15:42:05��
-�ڵ� 1 �ϵ���Ŀ��C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\3.12.2\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)��
+��������ʱ��Ϊ 2018/10/12 18:03:47��
+�ڵ� 1 �ϵ���Ŀ��D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\3.12.2\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)��
 PrepareForBuild:
   ���ڴ���Ŀ¼��Debug\����
   ���ڴ���Ŀ¼��Debug\CompilerIdCXX.tlog\����
@@ -66,7 +66,7 @@ ClCompile:
   CMakeCXXCompilerId.cpp
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\3.12.2\CompilerIdCXX\.\CompilerIdCXX.exe
+  CompilerIdCXX.vcxproj -> D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\3.12.2\CompilerIdCXX\.\CompilerIdCXX.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
   :VCEnd
@@ -74,129 +74,51 @@ PostBuildEvent:
 FinalizeBuildStatus:
   ����ɾ���ļ���Debug\CompilerIdCXX.tlog\unsuccessfulbuild����
   ���ڶԡ�Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate��ִ�� Touch ����
-�����������Ŀ��C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\3.12.2\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+�����������Ŀ��D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\3.12.2\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
 
 �ѳɹ����ɡ�
     0 ������
     0 ������
 
-����ʱ�� 00:00:00.72
+����ʱ�� 00:00:00.78
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/3.12.2/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is MSVC, found in "D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/3.12.2/CompilerIdCXX/CompilerIdCXX.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/CMakeTmp
+Change Dir: D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_f98a2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_1875b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.179.6572
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2018/9/27 15:42:06。
-节点 1 上的项目“C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\cmTC_f98a2.vcxproj”(默认目标)。
+生成启动时间为 2018/10/12 18:03:47。
+节点 1 上的项目“D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\cmTC_1875b.vcxproj”(默认目标)。
 PrepareForBuild:
-  正在创建目录“cmTC_f98a2.dir\Debug\”。
-  正在创建目录“C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_f98a2.dir\Debug\cmTC_f98a2.tlog\”。
+  正在创建目录“cmTC_1875b.dir\Debug\”。
+  正在创建目录“D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_1875b.dir\Debug\cmTC_1875b.tlog\”。
 InitializeBuildStatus:
-  正在创建“cmTC_f98a2.dir\Debug\cmTC_f98a2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在创建“cmTC_1875b.dir\Debug\cmTC_1875b.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f98a2.dir\Debug\\" /Fd"cmTC_f98a2.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\testCCompiler.c
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1875b.dir\Debug\\" /Fd"cmTC_1875b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\testCCompiler.c
   用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.14.26431 版
   版权所有(C) Microsoft Corporation。保留所有权利。
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f98a2.dir\Debug\\" /Fd"cmTC_f98a2.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\testCCompiler.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1875b.dir\Debug\\" /Fd"cmTC_1875b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\testCCompiler.c
   testCCompiler.c
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\Debug\cmTC_f98a2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/CMakeTmp/Debug/cmTC_f98a2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/CMakeTmp/Debug/cmTC_f98a2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_f98a2.dir\Debug\testCCompiler.obj
-  cmTC_f98a2.vcxproj -> C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\Debug\cmTC_f98a2.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\Debug\cmTC_1875b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/CMakeTmp/Debug/cmTC_1875b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/CMakeTmp/Debug/cmTC_1875b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_1875b.dir\Debug\testCCompiler.obj
+  cmTC_1875b.vcxproj -> D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\Debug\cmTC_1875b.exe
 FinalizeBuildStatus:
-  正在删除文件“cmTC_f98a2.dir\Debug\cmTC_f98a2.tlog\unsuccessfulbuild”。
-  正在对“cmTC_f98a2.dir\Debug\cmTC_f98a2.tlog\cmTC_f98a2.lastbuildstate”执行 Touch 任务。
-已完成生成项目“C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\cmTC_f98a2.vcxproj”(默认目标)的操作。
-
-已成功生成。
-    0 个警告
-    0 个错误
-
-已用时间 00:00:01.07
-
-
-Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/CMakeTmp
-
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_ccca9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.179.6572
-版权所有(C) Microsoft Corporation。保留所有权利。
-
-生成启动时间为 2018/9/27 15:42:08。
-节点 1 上的项目“C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\cmTC_ccca9.vcxproj”(默认目标)。
-PrepareForBuild:
-  正在创建目录“cmTC_ccca9.dir\Debug\”。
-  正在创建目录“C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_ccca9.dir\Debug\cmTC_ccca9.tlog\”。
-InitializeBuildStatus:
-  正在创建“cmTC_ccca9.dir\Debug\cmTC_ccca9.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ccca9.dir\Debug\\" /Fd"cmTC_ccca9.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
-  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.14.26431 版
-  版权所有(C) Microsoft Corporation。保留所有权利。
-  
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ccca9.dir\Debug\\" /Fd"cmTC_ccca9.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
-  CMakeCCompilerABI.c
-  
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\Debug\cmTC_ccca9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/CMakeTmp/Debug/cmTC_ccca9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/CMakeTmp/Debug/cmTC_ccca9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ccca9.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_ccca9.vcxproj -> C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\Debug\cmTC_ccca9.exe
-FinalizeBuildStatus:
-  正在删除文件“cmTC_ccca9.dir\Debug\cmTC_ccca9.tlog\unsuccessfulbuild”。
-  正在对“cmTC_ccca9.dir\Debug\cmTC_ccca9.tlog\cmTC_ccca9.lastbuildstate”执行 Touch 任务。
-已完成生成项目“C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\cmTC_ccca9.vcxproj”(默认目标)的操作。
-
-已成功生成。
-    0 个警告
-    0 个错误
-
-已用时间 00:00:00.82
-
-
-
-
-Detecting C [] compiler features compiled with the following output:
-Change Dir: C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/CMakeTmp
-
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_13f29.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.179.6572
-版权所有(C) Microsoft Corporation。保留所有权利。
-
-生成启动时间为 2018/9/27 15:42:09。
-节点 1 上的项目“C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\cmTC_13f29.vcxproj”(默认目标)。
-PrepareForBuild:
-  正在创建目录“cmTC_13f29.dir\Debug\”。
-  正在创建目录“C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_13f29.dir\Debug\cmTC_13f29.tlog\”。
-InitializeBuildStatus:
-  正在创建“cmTC_13f29.dir\Debug\cmTC_13f29.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13f29.dir\Debug\\" /Fd"cmTC_13f29.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\feature_tests.c
-  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.14.26431 版
-  版权所有(C) Microsoft Corporation。保留所有权利。
-  
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13f29.dir\Debug\\" /Fd"cmTC_13f29.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\feature_tests.c
-  feature_tests.c
-  
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\Debug\cmTC_13f29.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/CMakeTmp/Debug/cmTC_13f29.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/CMakeTmp/Debug/cmTC_13f29.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_13f29.dir\Debug\feature_tests.obj
-  cmTC_13f29.vcxproj -> C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\Debug\cmTC_13f29.exe
-FinalizeBuildStatus:
-  正在删除文件“cmTC_13f29.dir\Debug\cmTC_13f29.tlog\unsuccessfulbuild”。
-  正在对“cmTC_13f29.dir\Debug\cmTC_13f29.tlog\cmTC_13f29.lastbuildstate”执行 Touch 任务。
-已完成生成项目“C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\cmTC_13f29.vcxproj”(默认目标)的操作。
+  正在删除文件“cmTC_1875b.dir\Debug\cmTC_1875b.tlog\unsuccessfulbuild”。
+  正在对“cmTC_1875b.dir\Debug\cmTC_1875b.tlog\cmTC_1875b.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\cmTC_1875b.vcxproj”(默认目标)的操作。
 
 已成功生成。
     0 个警告
@@ -205,122 +127,200 @@ FinalizeBuildStatus:
 已用时间 00:00:00.80
 
 
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_variadic_macros
-Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/CMakeTmp
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_ac928.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_202bd.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.179.6572
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2018/9/27 15:42:10。
-节点 1 上的项目“C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\cmTC_ac928.vcxproj”(默认目标)。
+生成启动时间为 2018/10/12 18:03:48。
+节点 1 上的项目“D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\cmTC_202bd.vcxproj”(默认目标)。
 PrepareForBuild:
-  正在创建目录“cmTC_ac928.dir\Debug\”。
-  正在创建目录“C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_ac928.dir\Debug\cmTC_ac928.tlog\”。
+  正在创建目录“cmTC_202bd.dir\Debug\”。
+  正在创建目录“D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_202bd.dir\Debug\cmTC_202bd.tlog\”。
 InitializeBuildStatus:
-  正在创建“cmTC_ac928.dir\Debug\cmTC_ac928.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在创建“cmTC_202bd.dir\Debug\cmTC_202bd.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ac928.dir\Debug\\" /Fd"cmTC_ac928.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_202bd.dir\Debug\\" /Fd"cmTC_202bd.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
   用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.14.26431 版
   版权所有(C) Microsoft Corporation。保留所有权利。
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ac928.dir\Debug\\" /Fd"cmTC_ac928.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-  testCXXCompiler.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_202bd.dir\Debug\\" /Fd"cmTC_202bd.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\Debug\cmTC_ac928.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/CMakeTmp/Debug/cmTC_ac928.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/CMakeTmp/Debug/cmTC_ac928.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ac928.dir\Debug\testCXXCompiler.obj
-  cmTC_ac928.vcxproj -> C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\Debug\cmTC_ac928.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\Debug\cmTC_202bd.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/CMakeTmp/Debug/cmTC_202bd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/CMakeTmp/Debug/cmTC_202bd.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_202bd.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_202bd.vcxproj -> D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\Debug\cmTC_202bd.exe
 FinalizeBuildStatus:
-  正在删除文件“cmTC_ac928.dir\Debug\cmTC_ac928.tlog\unsuccessfulbuild”。
-  正在对“cmTC_ac928.dir\Debug\cmTC_ac928.tlog\cmTC_ac928.lastbuildstate”执行 Touch 任务。
-已完成生成项目“C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\cmTC_ac928.vcxproj”(默认目标)的操作。
+  正在删除文件“cmTC_202bd.dir\Debug\cmTC_202bd.tlog\unsuccessfulbuild”。
+  正在对“cmTC_202bd.dir\Debug\cmTC_202bd.tlog\cmTC_202bd.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\cmTC_202bd.vcxproj”(默认目标)的操作。
 
 已成功生成。
     0 个警告
     0 个错误
 
-已用时间 00:00:00.83
+已用时间 00:00:00.77
 
 
-Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_bad84.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_70db3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.179.6572
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2018/9/27 15:42:11。
-节点 1 上的项目“C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\cmTC_bad84.vcxproj”(默认目标)。
+生成启动时间为 2018/10/12 18:03:49。
+节点 1 上的项目“D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\cmTC_70db3.vcxproj”(默认目标)。
 PrepareForBuild:
-  正在创建目录“cmTC_bad84.dir\Debug\”。
-  正在创建目录“C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_bad84.dir\Debug\cmTC_bad84.tlog\”。
+  正在创建目录“cmTC_70db3.dir\Debug\”。
+  正在创建目录“D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_70db3.dir\Debug\cmTC_70db3.tlog\”。
 InitializeBuildStatus:
-  正在创建“cmTC_bad84.dir\Debug\cmTC_bad84.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在创建“cmTC_70db3.dir\Debug\cmTC_70db3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bad84.dir\Debug\\" /Fd"cmTC_bad84.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_70db3.dir\Debug\\" /Fd"cmTC_70db3.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\feature_tests.c
   用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.14.26431 版
   版权所有(C) Microsoft Corporation。保留所有权利。
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bad84.dir\Debug\\" /Fd"cmTC_bad84.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
-  CMakeCXXCompilerABI.cpp
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_70db3.dir\Debug\\" /Fd"cmTC_70db3.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\feature_tests.c
+  feature_tests.c
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\Debug\cmTC_bad84.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/CMakeTmp/Debug/cmTC_bad84.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/CMakeTmp/Debug/cmTC_bad84.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_bad84.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_bad84.vcxproj -> C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\Debug\cmTC_bad84.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\Debug\cmTC_70db3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/CMakeTmp/Debug/cmTC_70db3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/CMakeTmp/Debug/cmTC_70db3.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_70db3.dir\Debug\feature_tests.obj
+  cmTC_70db3.vcxproj -> D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\Debug\cmTC_70db3.exe
 FinalizeBuildStatus:
-  正在删除文件“cmTC_bad84.dir\Debug\cmTC_bad84.tlog\unsuccessfulbuild”。
-  正在对“cmTC_bad84.dir\Debug\cmTC_bad84.tlog\cmTC_bad84.lastbuildstate”执行 Touch 任务。
-已完成生成项目“C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\cmTC_bad84.vcxproj”(默认目标)的操作。
-
-已成功生成。
-    0 个警告
-    0 个错误
-
-已用时间 00:00:00.82
-
-
-
-
-Detecting CXX [] compiler features compiled with the following output:
-Change Dir: C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/CMakeTmp
-
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_c6c95.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.179.6572
-版权所有(C) Microsoft Corporation。保留所有权利。
-
-生成启动时间为 2018/9/27 15:42:12。
-节点 1 上的项目“C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\cmTC_c6c95.vcxproj”(默认目标)。
-PrepareForBuild:
-  正在创建目录“cmTC_c6c95.dir\Debug\”。
-  正在创建目录“C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_c6c95.dir\Debug\cmTC_c6c95.tlog\”。
-InitializeBuildStatus:
-  正在创建“cmTC_c6c95.dir\Debug\cmTC_c6c95.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c6c95.dir\Debug\\" /Fd"cmTC_c6c95.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\feature_tests.cxx
-  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.14.26431 版
-  版权所有(C) Microsoft Corporation。保留所有权利。
-  
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c6c95.dir\Debug\\" /Fd"cmTC_c6c95.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\feature_tests.cxx
-  feature_tests.cxx
-  
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\Debug\cmTC_c6c95.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/CMakeTmp/Debug/cmTC_c6c95.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/CMakeTmp/Debug/cmTC_c6c95.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_c6c95.dir\Debug\feature_tests.obj
-  cmTC_c6c95.vcxproj -> C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\Debug\cmTC_c6c95.exe
-FinalizeBuildStatus:
-  正在删除文件“cmTC_c6c95.dir\Debug\cmTC_c6c95.tlog\unsuccessfulbuild”。
-  正在对“cmTC_c6c95.dir\Debug\cmTC_c6c95.tlog\cmTC_c6c95.lastbuildstate”执行 Touch 任务。
-已完成生成项目“C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\CMakeTmp\cmTC_c6c95.vcxproj”(默认目标)的操作。
+  正在删除文件“cmTC_70db3.dir\Debug\cmTC_70db3.tlog\unsuccessfulbuild”。
+  正在对“cmTC_70db3.dir\Debug\cmTC_70db3.tlog\cmTC_70db3.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\cmTC_70db3.vcxproj”(默认目标)的操作。
 
 已成功生成。
     0 个警告
     0 个错误
 
 已用时间 00:00:00.79
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_b672f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.179.6572
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/10/12 18:03:50。
+节点 1 上的项目“D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\cmTC_b672f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b672f.dir\Debug\”。
+  正在创建目录“D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b672f.dir\Debug\cmTC_b672f.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b672f.dir\Debug\cmTC_b672f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b672f.dir\Debug\\" /Fd"cmTC_b672f.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.14.26431 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b672f.dir\Debug\\" /Fd"cmTC_b672f.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  testCXXCompiler.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\Debug\cmTC_b672f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/CMakeTmp/Debug/cmTC_b672f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/CMakeTmp/Debug/cmTC_b672f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b672f.dir\Debug\testCXXCompiler.obj
+  cmTC_b672f.vcxproj -> D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\Debug\cmTC_b672f.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_b672f.dir\Debug\cmTC_b672f.tlog\unsuccessfulbuild”。
+  正在对“cmTC_b672f.dir\Debug\cmTC_b672f.tlog\cmTC_b672f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\cmTC_b672f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.79
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_77317.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.179.6572
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/10/12 18:03:51。
+节点 1 上的项目“D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\cmTC_77317.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_77317.dir\Debug\”。
+  正在创建目录“D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_77317.dir\Debug\cmTC_77317.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_77317.dir\Debug\cmTC_77317.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_77317.dir\Debug\\" /Fd"cmTC_77317.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.14.26431 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_77317.dir\Debug\\" /Fd"cmTC_77317.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\Debug\cmTC_77317.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/CMakeTmp/Debug/cmTC_77317.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/CMakeTmp/Debug/cmTC_77317.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_77317.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_77317.vcxproj -> D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\Debug\cmTC_77317.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_77317.dir\Debug\cmTC_77317.tlog\unsuccessfulbuild”。
+  正在对“cmTC_77317.dir\Debug\cmTC_77317.tlog\cmTC_77317.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\cmTC_77317.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.78
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_74b95.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.179.6572
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/10/12 18:03:52。
+节点 1 上的项目“D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\cmTC_74b95.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_74b95.dir\Debug\”。
+  正在创建目录“D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_74b95.dir\Debug\cmTC_74b95.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_74b95.dir\Debug\cmTC_74b95.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_74b95.dir\Debug\\" /Fd"cmTC_74b95.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\feature_tests.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.14.26431 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_74b95.dir\Debug\\" /Fd"cmTC_74b95.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\feature_tests.cxx
+  feature_tests.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\Debug\cmTC_74b95.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/CMakeTmp/Debug/cmTC_74b95.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/CMakeTmp/Debug/cmTC_74b95.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_74b95.dir\Debug\feature_tests.obj
+  cmTC_74b95.vcxproj -> D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\Debug\cmTC_74b95.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_74b95.dir\Debug\cmTC_74b95.tlog\unsuccessfulbuild”。
+  正在对“cmTC_74b95.dir\Debug\cmTC_74b95.tlog\cmTC_74b95.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\CMakeTmp\cmTC_74b95.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.78
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers

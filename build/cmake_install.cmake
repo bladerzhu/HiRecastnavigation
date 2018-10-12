@@ -1,4 +1,4 @@
-# Install script for directory: D:/MyGit/github/recastnavigation
+# Install script for directory: D:/MyGit/github/HiRecastnavigation/recastnavigation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/tanxiaoliang.hiram/Desktop/vs/DebugUtils/cmake_install.cmake")
-  include("C:/Users/tanxiaoliang.hiram/Desktop/vs/Detour/cmake_install.cmake")
-  include("C:/Users/tanxiaoliang.hiram/Desktop/vs/DetourCrowd/cmake_install.cmake")
-  include("C:/Users/tanxiaoliang.hiram/Desktop/vs/DetourTileCache/cmake_install.cmake")
-  include("C:/Users/tanxiaoliang.hiram/Desktop/vs/Recast/cmake_install.cmake")
-  include("C:/Users/tanxiaoliang.hiram/Desktop/vs/RecastDemo/cmake_install.cmake")
-  include("C:/Users/tanxiaoliang.hiram/Desktop/vs/Tests/cmake_install.cmake")
+  include("D:/MyGit/github/HiRecastnavigation/build/DebugUtils/cmake_install.cmake")
+  include("D:/MyGit/github/HiRecastnavigation/build/Detour/cmake_install.cmake")
+  include("D:/MyGit/github/HiRecastnavigation/build/DetourCrowd/cmake_install.cmake")
+  include("D:/MyGit/github/HiRecastnavigation/build/DetourTileCache/cmake_install.cmake")
+  include("D:/MyGit/github/HiRecastnavigation/build/Recast/cmake_install.cmake")
+  include("D:/MyGit/github/HiRecastnavigation/build/RecastDemo/cmake_install.cmake")
+  include("D:/MyGit/github/HiRecastnavigation/build/Tests/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/tanxiaoliang.hiram/Desktop/vs/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/MyGit/github/HiRecastnavigation/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,1 +1,40 @@
-﻿  Recast.vcxproj -> C:\Users\tanxiaoliang.hiram\Desktop\vs\Recast\Debug\Recast.lib
+﻿  Building Custom Rule D:/MyGit/github/HiRecastnavigation/recastnavigation/Recast/CMakeLists.txt
+  CMake does not need to re-run because D:/MyGit/github/HiRecastnavigation/build/Recast/CMakeFiles/generate.stamp is up-to-date.
+  Recast.cpp
+d:\mygit\github\hirecastnavigation\recastnavigation\recast\source\recast.cpp(38): warning C4291: “void *operator new(size_t,const rcNewTag &,void *)”: 未找到匹配的删除运算符；如果初始化引发异常，则不会释放内存
+  d:\mygit\github\hirecastnavigation\recastnavigation\recast\include\recastalloc.h(68): note: 参见“operator new”的声明
+  d:\mygit\github\hirecastnavigation\recastnavigation\recast\source\recast.cpp(99): note: 参见对正在编译的函数 模板 实例化“T *`anonymous-namespace'::rcNew<rcHeightfield>(rcAllocHint)”的引用
+          with
+          [
+              T=rcHeightfield
+          ]
+  RecastAlloc.cpp
+  RecastArea.cpp
+  RecastAssert.cpp
+  RecastContour.cpp
+  RecastFilter.cpp
+  RecastLayers.cpp
+  RecastMesh.cpp
+  RecastMeshDetail.cpp
+  RecastRasterization.cpp
+  RecastRegion.cpp
+d:\mygit\github\hirecastnavigation\recastnavigation\recast\include\recastalloc.h(99): warning C4291: “void *operator new(size_t,const rcNewTag &,void *)”: 未找到匹配的删除运算符；如果初始化引发异常，则不会释放内存
+  d:\mygit\github\hirecastnavigation\recastnavigation\recast\include\recastalloc.h(68): note: 参见“operator new”的声明
+  d:\mygit\github\hirecastnavigation\recastnavigation\recast\include\recastalloc.h(99): note: 编译 类 模板 成员函数 "void rcVectorBase<T,RC_ALLOC_TEMP>::construct(T *,const T &)" 时
+          with
+          [
+              T=rcRegion
+          ]
+  d:\mygit\github\hirecastnavigation\recastnavigation\recast\include\recastalloc.h(194): note: 参见对正在编译的函数 模板 实例化“void rcVectorBase<T,RC_ALLOC_TEMP>::construct(T *,const T &)”的引用
+          with
+          [
+              T=rcRegion
+          ]
+  d:\mygit\github\hirecastnavigation\recastnavigation\recast\include\recastalloc.h(275): note: 参见对正在编译的 类 模板 实例化 "rcVectorBase<T,RC_ALLOC_TEMP>" 的引用
+          with
+          [
+              T=rcRegion
+          ]
+  d:\mygit\github\hirecastnavigation\recastnavigation\recast\source\recastregion.cpp(798): note: 参见对正在编译的 类 模板 实例化 "rcTempVector<rcRegion>" 的引用
+  正在生成代码...
+  Recast.vcxproj -> D:\MyGit\github\HiRecastnavigation\build\Recast\Debug\Recast.lib

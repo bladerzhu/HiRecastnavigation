@@ -1,46 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\Recast\Source\Recast.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Recast\Source\Recast.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\Recast\Source\RecastAlloc.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Recast\Source\RecastAlloc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\Recast\Source\RecastArea.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Recast\Source\RecastArea.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\Recast\Source\RecastAssert.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Recast\Source\RecastAssert.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\Recast\Source\RecastContour.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Recast\Source\RecastContour.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\Recast\Source\RecastFilter.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Recast\Source\RecastFilter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\Recast\Source\RecastLayers.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Recast\Source\RecastLayers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\Recast\Source\RecastMesh.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Recast\Source\RecastMesh.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\Recast\Source\RecastMeshDetail.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Recast\Source\RecastMeshDetail.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\Recast\Source\RecastRasterization.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Recast\Source\RecastRasterization.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\Recast\Source\RecastRegion.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Recast\Source\RecastRegion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\MyGit\github\recastnavigation\Recast\CMakeLists.txt" />
+    <CustomBuild Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Recast\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{02C9CD33-97D4-394A-A998-87008863275A}</UniqueIdentifier>
+      <UniqueIdentifier>{47289597-2681-340D-A3C6-868F419A1B25}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

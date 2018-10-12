@@ -1,31 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\DetourCrowd\Source\DetourCrowd.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\DetourCrowd\Source\DetourCrowd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\DetourCrowd\Source\DetourLocalBoundary.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\DetourCrowd\Source\DetourLocalBoundary.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\DetourCrowd\Source\DetourObstacleAvoidance.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\DetourCrowd\Source\DetourObstacleAvoidance.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\DetourCrowd\Source\DetourPathCorridor.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\DetourCrowd\Source\DetourPathCorridor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\DetourCrowd\Source\DetourPathQueue.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\DetourCrowd\Source\DetourPathQueue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\DetourCrowd\Source\DetourProximityGrid.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\DetourCrowd\Source\DetourProximityGrid.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\MyGit\github\recastnavigation\DetourCrowd\CMakeLists.txt" />
+    <CustomBuild Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\DetourCrowd\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{02C9CD33-97D4-394A-A998-87008863275A}</UniqueIdentifier>
+      <UniqueIdentifier>{47289597-2681-340D-A3C6-868F419A1B25}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

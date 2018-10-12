@@ -1,1 +1,8 @@
-﻿  DebugUtils.vcxproj -> C:\Users\tanxiaoliang.hiram\Desktop\vs\DebugUtils\Debug\DebugUtils.lib
+﻿  Building Custom Rule D:/MyGit/github/HiRecastnavigation/recastnavigation/DebugUtils/CMakeLists.txt
+  CMake does not need to re-run because D:/MyGit/github/HiRecastnavigation/build/DebugUtils/CMakeFiles/generate.stamp is up-to-date.
+  DebugDraw.cpp
+  DetourDebugDraw.cpp
+  RecastDebugDraw.cpp
+  RecastDump.cpp
+  正在生成代码...
+  DebugUtils.vcxproj -> D:\MyGit\github\HiRecastnavigation\build\DebugUtils\Debug\DebugUtils.lib

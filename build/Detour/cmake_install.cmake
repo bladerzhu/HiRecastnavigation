@@ -1,4 +1,4 @@
-# Install script for directory: D:/MyGit/github/recastnavigation/Detour
+# Install script for directory: D:/MyGit/github/HiRecastnavigation/recastnavigation/Detour
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,27 +34,27 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/tanxiaoliang.hiram/Desktop/vs/Detour/Debug/Detour.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/MyGit/github/HiRecastnavigation/build/Detour/Debug/Detour.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/tanxiaoliang.hiram/Desktop/vs/Detour/Release/Detour.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/MyGit/github/HiRecastnavigation/build/Detour/Release/Detour.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/tanxiaoliang.hiram/Desktop/vs/Detour/MinSizeRel/Detour.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/MyGit/github/HiRecastnavigation/build/Detour/MinSizeRel/Detour.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/tanxiaoliang.hiram/Desktop/vs/Detour/RelWithDebInfo/Detour.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/MyGit/github/HiRecastnavigation/build/Detour/RelWithDebInfo/Detour.lib")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "D:/MyGit/github/recastnavigation/Detour/Include/DetourAlloc.h"
-    "D:/MyGit/github/recastnavigation/Detour/Include/DetourAssert.h"
-    "D:/MyGit/github/recastnavigation/Detour/Include/DetourCommon.h"
-    "D:/MyGit/github/recastnavigation/Detour/Include/DetourMath.h"
-    "D:/MyGit/github/recastnavigation/Detour/Include/DetourNavMesh.h"
-    "D:/MyGit/github/recastnavigation/Detour/Include/DetourNavMeshBuilder.h"
-    "D:/MyGit/github/recastnavigation/Detour/Include/DetourNavMeshQuery.h"
-    "D:/MyGit/github/recastnavigation/Detour/Include/DetourNode.h"
-    "D:/MyGit/github/recastnavigation/Detour/Include/DetourStatus.h"
+    "D:/MyGit/github/HiRecastnavigation/recastnavigation/Detour/Include/DetourAlloc.h"
+    "D:/MyGit/github/HiRecastnavigation/recastnavigation/Detour/Include/DetourAssert.h"
+    "D:/MyGit/github/HiRecastnavigation/recastnavigation/Detour/Include/DetourCommon.h"
+    "D:/MyGit/github/HiRecastnavigation/recastnavigation/Detour/Include/DetourMath.h"
+    "D:/MyGit/github/HiRecastnavigation/recastnavigation/Detour/Include/DetourNavMesh.h"
+    "D:/MyGit/github/HiRecastnavigation/recastnavigation/Detour/Include/DetourNavMeshBuilder.h"
+    "D:/MyGit/github/HiRecastnavigation/recastnavigation/Detour/Include/DetourNavMeshQuery.h"
+    "D:/MyGit/github/HiRecastnavigation/recastnavigation/Detour/Include/DetourNode.h"
+    "D:/MyGit/github/HiRecastnavigation/recastnavigation/Detour/Include/DetourStatus.h"
     )
 endif()
 

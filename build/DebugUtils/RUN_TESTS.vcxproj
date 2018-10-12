@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5E209C79-D53A-3BB2-99D3-CC5E354B8F7B}</ProjectGuid>
+    <ProjectGuid>{60FF38E5-6A67-3819-BA5D-217F74825870}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
@@ -63,7 +63,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -85,7 +85,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -107,7 +107,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -129,7 +129,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -150,7 +150,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\abbbfd8360e5bc7158c34dba58861e2f\RUN_TESTS_force.rule">
+    <CustomBuild Include="D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\82ed35f981071bdff711cf8d52625d85\RUN_TESTS_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 cd .
@@ -161,8 +161,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/abbbfd8360e5bc7158c34dba58861e2f/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\DebugUtils\CMakeFiles\RUN_TESTS_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/82ed35f981071bdff711cf8d52625d85/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\MyGit\github\HiRecastnavigation\build\DebugUtils\CMakeFiles\RUN_TESTS_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
@@ -174,8 +174,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/abbbfd8360e5bc7158c34dba58861e2f/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\DebugUtils\CMakeFiles\RUN_TESTS_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/82ed35f981071bdff711cf8d52625d85/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\MyGit\github\HiRecastnavigation\build\DebugUtils\CMakeFiles\RUN_TESTS_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
@@ -187,8 +187,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/abbbfd8360e5bc7158c34dba58861e2f/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\DebugUtils\CMakeFiles\RUN_TESTS_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/82ed35f981071bdff711cf8d52625d85/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\MyGit\github\HiRecastnavigation\build\DebugUtils\CMakeFiles\RUN_TESTS_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
@@ -200,14 +200,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/abbbfd8360e5bc7158c34dba58861e2f/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\DebugUtils\CMakeFiles\RUN_TESTS_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/82ed35f981071bdff711cf8d52625d85/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\MyGit\github\HiRecastnavigation\build\DebugUtils\CMakeFiles\RUN_TESTS_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\tanxiaoliang.hiram\Desktop\vs\ZERO_CHECK.vcxproj">
-      <Project>{97900C22-FA50-3EAD-85BC-32DAD9A6C0B9}</Project>
+    <ProjectReference Include="D:\MyGit\github\HiRecastnavigation\build\ZERO_CHECK.vcxproj">
+      <Project>{0643365E-FDF2-34F4-8CD6-67C4581B7FB3}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
   </ItemGroup>

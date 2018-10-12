@@ -1,1 +1,6 @@
-﻿  DetourTileCache.vcxproj -> C:\Users\tanxiaoliang.hiram\Desktop\vs\DetourTileCache\Debug\DetourTileCache.lib
+﻿  Building Custom Rule D:/MyGit/github/HiRecastnavigation/recastnavigation/DetourTileCache/CMakeLists.txt
+  CMake does not need to re-run because D:/MyGit/github/HiRecastnavigation/build/DetourTileCache/CMakeFiles/generate.stamp is up-to-date.
+  DetourTileCache.cpp
+  DetourTileCacheBuilder.cpp
+  正在生成代码...
+  DetourTileCache.vcxproj -> D:\MyGit\github\HiRecastnavigation\build\DetourTileCache\Debug\DetourTileCache.lib

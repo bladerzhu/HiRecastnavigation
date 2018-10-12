@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9EB98AC7-3F8B-3030-8CF2-8A47A3CAD9C4}</ProjectGuid>
+    <ProjectGuid>{0D9CE196-93FE-31FC-A7F4-F140DEDAED15}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
@@ -56,26 +56,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\DebugUtils\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\MyGit\github\HiRecastnavigation\build\DebugUtils\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DebugUtils.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DebugUtils</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\DebugUtils\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\MyGit\github\HiRecastnavigation\build\DebugUtils\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DebugUtils.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DebugUtils</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\DebugUtils\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\MyGit\github\HiRecastnavigation\build\DebugUtils\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">DebugUtils.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">DebugUtils</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\DebugUtils\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\MyGit\github\HiRecastnavigation\build\DebugUtils\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">DebugUtils.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">DebugUtils</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -92,10 +92,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -108,7 +108,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -125,10 +125,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -141,7 +141,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -158,10 +158,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -174,7 +174,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -190,10 +190,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -205,10 +205,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\MyGit\github\recastnavigation\DebugUtils\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/MyGit/github/recastnavigation/DebugUtils/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/MyGit/github/HiRecastnavigation/recastnavigation/DebugUtils/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HD:/MyGit/github/recastnavigation -BC:/Users/tanxiaoliang.hiram/Desktop/vs --check-stamp-file C:/Users/tanxiaoliang.hiram/Desktop/vs/DebugUtils/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/MyGit/github/HiRecastnavigation/recastnavigation -BD:/MyGit/github/HiRecastnavigation/build --check-stamp-file D:/MyGit/github/HiRecastnavigation/build/DebugUtils/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -216,12 +216,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/MyGit/github/recastnavigation/DebugUtils/CMakeLists.txt;D:\MyGit\github\recastnavigation\DebugUtils\CMakeLists.txt;D:\MyGit\github\recastnavigation\DebugUtils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\DebugUtils\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/MyGit/github/HiRecastnavigation/recastnavigation/DebugUtils/CMakeLists.txt;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\CMakeLists.txt;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\MyGit\github\HiRecastnavigation\build\DebugUtils\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/MyGit/github/recastnavigation/DebugUtils/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/MyGit/github/HiRecastnavigation/recastnavigation/DebugUtils/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HD:/MyGit/github/recastnavigation -BC:/Users/tanxiaoliang.hiram/Desktop/vs --check-stamp-file C:/Users/tanxiaoliang.hiram/Desktop/vs/DebugUtils/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/MyGit/github/HiRecastnavigation/recastnavigation -BD:/MyGit/github/HiRecastnavigation/build --check-stamp-file D:/MyGit/github/HiRecastnavigation/build/DebugUtils/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -229,12 +229,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/MyGit/github/recastnavigation/DebugUtils/CMakeLists.txt;D:\MyGit\github\recastnavigation\DebugUtils\CMakeLists.txt;D:\MyGit\github\recastnavigation\DebugUtils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\DebugUtils\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/MyGit/github/HiRecastnavigation/recastnavigation/DebugUtils/CMakeLists.txt;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\CMakeLists.txt;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\MyGit\github\HiRecastnavigation\build\DebugUtils\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/MyGit/github/recastnavigation/DebugUtils/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/MyGit/github/HiRecastnavigation/recastnavigation/DebugUtils/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HD:/MyGit/github/recastnavigation -BC:/Users/tanxiaoliang.hiram/Desktop/vs --check-stamp-file C:/Users/tanxiaoliang.hiram/Desktop/vs/DebugUtils/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/MyGit/github/HiRecastnavigation/recastnavigation -BD:/MyGit/github/HiRecastnavigation/build --check-stamp-file D:/MyGit/github/HiRecastnavigation/build/DebugUtils/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -242,12 +242,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/MyGit/github/recastnavigation/DebugUtils/CMakeLists.txt;D:\MyGit\github\recastnavigation\DebugUtils\CMakeLists.txt;D:\MyGit\github\recastnavigation\DebugUtils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\DebugUtils\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/MyGit/github/HiRecastnavigation/recastnavigation/DebugUtils/CMakeLists.txt;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\CMakeLists.txt;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\MyGit\github\HiRecastnavigation\build\DebugUtils\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/MyGit/github/recastnavigation/DebugUtils/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/MyGit/github/HiRecastnavigation/recastnavigation/DebugUtils/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HD:/MyGit/github/recastnavigation -BC:/Users/tanxiaoliang.hiram/Desktop/vs --check-stamp-file C:/Users/tanxiaoliang.hiram/Desktop/vs/DebugUtils/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/MyGit/github/HiRecastnavigation/recastnavigation -BD:/MyGit/github/HiRecastnavigation/build --check-stamp-file D:/MyGit/github/HiRecastnavigation/build/DebugUtils/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -255,20 +255,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/MyGit/github/recastnavigation/DebugUtils/CMakeLists.txt;D:\MyGit\github\recastnavigation\DebugUtils\CMakeLists.txt;D:\MyGit\github\recastnavigation\DebugUtils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\DebugUtils\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/MyGit/github/HiRecastnavigation/recastnavigation/DebugUtils/CMakeLists.txt;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\CMakeLists.txt;D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\MyGit\github\HiRecastnavigation\build\DebugUtils\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\DebugUtils\Source\DebugDraw.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\DebugUtils\Source\DetourDebugDraw.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\DebugUtils\Source\RecastDebugDraw.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\DebugUtils\Source\RecastDump.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Source\DebugDraw.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Source\DetourDebugDraw.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Source\RecastDebugDraw.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\DebugUtils\Source\RecastDump.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\tanxiaoliang.hiram\Desktop\vs\ZERO_CHECK.vcxproj">
-      <Project>{97900C22-FA50-3EAD-85BC-32DAD9A6C0B9}</Project>
+    <ProjectReference Include="D:\MyGit\github\HiRecastnavigation\build\ZERO_CHECK.vcxproj">
+      <Project>{0643365E-FDF2-34F4-8CD6-67C4581B7FB3}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
   </ItemGroup>

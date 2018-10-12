@@ -1,1 +1,132 @@
-﻿  RecastDemo.vcxproj -> C:\Users\tanxiaoliang.hiram\Desktop\vs\RecastDemo\Debug\RecastDemo.exe
+﻿  Building Custom Rule D:/MyGit/github/HiRecastnavigation/recastnavigation/RecastDemo/CMakeLists.txt
+  CMake does not need to re-run because D:/MyGit/github/HiRecastnavigation/build/RecastDemo/CMakeFiles/generate.stamp is up-to-date.
+  fastlz.c
+  ChunkyTriMesh.cpp
+  ConvexVolumeTool.cpp
+  CrowdTool.cpp
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\crowdtool.cpp(556): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\crowdtool.cpp(579): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\crowdtool.cpp(608): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+  Filelist.cpp
+  InputGeom.cpp
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\inputgeom.cpp(169): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\inputgeom.cpp(242): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\inputgeom.cpp(257): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\inputgeom.cpp(262): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\inputgeom.cpp(270): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\inputgeom.cpp(329): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+  MeshLoaderObj.cpp
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\meshloaderobj.cpp(142): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\meshloaderobj.cpp(195): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+  NavMeshPruneTool.cpp
+  NavMeshTesterTool.cpp
+  OffMeshConnectionTool.cpp
+  PerfTimer.cpp
+  Sample.cpp
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample.cpp(201): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample.cpp(344): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample.cpp(416): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+  SampleInterfaces.cpp
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sampleinterfaces.cpp(278): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sampleinterfaces.cpp(287): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+  Sample_Debug.cpp
+  Sample_SoloMesh.cpp
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_solomesh.cpp(111): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+  Sample_TempObstacles.cpp
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_tempobstacles.cpp(612): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_tempobstacles.cpp(614): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_tempobstacles.cpp(616): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_tempobstacles.cpp(876): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_tempobstacles.cpp(886): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_tempobstacles.cpp(888): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_tempobstacles.cpp(905): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_tempobstacles.cpp(907): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_tempobstacles.cpp(910): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_tempobstacles.cpp(912): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_tempobstacles.cpp(914): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_tempobstacles.cpp(1408): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_tempobstacles.cpp(1446): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+  Sample_TileMesh.cpp
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_tilemesh.cpp(165): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_tilemesh.cpp(250): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_tilemesh.cpp(260): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_tilemesh.cpp(262): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_tilemesh.cpp(292): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\sample_tilemesh.cpp(559): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+  TestCase.cpp
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\testcase.cpp(103): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\testcase.cpp(163): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\testcase.cpp(177): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\testcase.cpp(422): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\testcase.cpp(439): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\testcase.cpp(440): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\testcase.cpp(446): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\testcase.cpp(449): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\testcase.cpp(452): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+  ValueHistory.cpp
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\valuehistory.cpp(57): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\valuehistory.cpp(75): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\valuehistory.cpp(111): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+  imgui.cpp
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\imgui.cpp(610): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\imgui.cpp(612): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+  imguiRenderGL.cpp
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\imguirendergl.cpp(248): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+  正在生成代码...
+  正在编译...
+  main.cpp
+d:\mygit\github\hirecastnavigation\recastnavigation\recastdemo\source\main.cpp(570): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1961): note: 参见“_snprintf”的声明
+  正在生成代码...
+  RecastDemo.vcxproj -> D:\MyGit\github\HiRecastnavigation\build\RecastDemo\Debug\RecastDemo.exe

@@ -1,4 +1,4 @@
-# Install script for directory: D:/MyGit/github/recastnavigation/DetourTileCache
+# Install script for directory: D:/MyGit/github/HiRecastnavigation/recastnavigation/DetourTileCache
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,20 +34,20 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/tanxiaoliang.hiram/Desktop/vs/DetourTileCache/Debug/DetourTileCache.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/MyGit/github/HiRecastnavigation/build/DetourTileCache/Debug/DetourTileCache.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/tanxiaoliang.hiram/Desktop/vs/DetourTileCache/Release/DetourTileCache.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/MyGit/github/HiRecastnavigation/build/DetourTileCache/Release/DetourTileCache.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/tanxiaoliang.hiram/Desktop/vs/DetourTileCache/MinSizeRel/DetourTileCache.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/MyGit/github/HiRecastnavigation/build/DetourTileCache/MinSizeRel/DetourTileCache.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/tanxiaoliang.hiram/Desktop/vs/DetourTileCache/RelWithDebInfo/DetourTileCache.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/MyGit/github/HiRecastnavigation/build/DetourTileCache/RelWithDebInfo/DetourTileCache.lib")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "D:/MyGit/github/recastnavigation/DetourTileCache/Include/DetourTileCache.h"
-    "D:/MyGit/github/recastnavigation/DetourTileCache/Include/DetourTileCacheBuilder.h"
+    "D:/MyGit/github/HiRecastnavigation/recastnavigation/DetourTileCache/Include/DetourTileCache.h"
+    "D:/MyGit/github/HiRecastnavigation/recastnavigation/DetourTileCache/Include/DetourTileCacheBuilder.h"
     )
 endif()
 

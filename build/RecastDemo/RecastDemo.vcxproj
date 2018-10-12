@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4E56CBAA-0B94-3BB3-A5C2-20049C25D2FA}</ProjectGuid>
+    <ProjectGuid>{16F4BD5D-813C-3B6F-BC52-39C9BE4A0490}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
@@ -56,25 +56,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\RecastDemo\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\MyGit\github\HiRecastnavigation\build\RecastDemo\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RecastDemo.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RecastDemo</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\RecastDemo\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\MyGit\github\HiRecastnavigation\build\RecastDemo\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RecastDemo.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RecastDemo</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\RecastDemo\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\MyGit\github\HiRecastnavigation\build\RecastDemo\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">RecastDemo.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">RecastDemo</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\RecastDemo\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\MyGit\github\HiRecastnavigation\build\RecastDemo\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RecastDemo.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RecastDemo</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
@@ -83,7 +83,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\recastnavigation\RecastDemo\Include;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -100,10 +100,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\recastnavigation\RecastDemo\Include;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\recastnavigation\RecastDemo\Include;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -111,13 +111,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>opengl32.lib;glu32.lib;..\DebugUtils\Debug\DebugUtils.lib;..\Detour\Debug\Detour.lib;..\DetourCrowd\Debug\DetourCrowd.lib;..\DetourTileCache\Debug\DetourTileCache.lib;..\Recast\Debug\Recast.lib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\lib\x86\SDL2main.lib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\lib\x86\SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\DebugUtils\Debug\DebugUtils.lib;..\Detour\Debug\Detour.lib;..\DetourCrowd\Debug\DetourCrowd.lib;..\DetourTileCache\Debug\DetourTileCache.lib;..\Recast\Debug\Recast.lib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\lib\x86\SDL2main.lib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\lib\x86\SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/tanxiaoliang.hiram/Desktop/vs/RecastDemo/Debug/RecastDemo.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/tanxiaoliang.hiram/Desktop/vs/RecastDemo/Debug/RecastDemo.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/MyGit/github/HiRecastnavigation/build/RecastDemo/Debug/RecastDemo.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/MyGit/github/HiRecastnavigation/build/RecastDemo/Debug/RecastDemo.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -126,7 +126,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\recastnavigation\RecastDemo\Include;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -143,10 +143,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\recastnavigation\RecastDemo\Include;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\recastnavigation\RecastDemo\Include;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -154,13 +154,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>opengl32.lib;glu32.lib;..\DebugUtils\Release\DebugUtils.lib;..\Detour\Release\Detour.lib;..\DetourCrowd\Release\DetourCrowd.lib;..\DetourTileCache\Release\DetourTileCache.lib;..\Recast\Release\Recast.lib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\lib\x86\SDL2main.lib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\lib\x86\SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\DebugUtils\Release\DebugUtils.lib;..\Detour\Release\Detour.lib;..\DetourCrowd\Release\DetourCrowd.lib;..\DetourTileCache\Release\DetourTileCache.lib;..\Recast\Release\Recast.lib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\lib\x86\SDL2main.lib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\lib\x86\SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/tanxiaoliang.hiram/Desktop/vs/RecastDemo/Release/RecastDemo.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/tanxiaoliang.hiram/Desktop/vs/RecastDemo/Release/RecastDemo.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/MyGit/github/HiRecastnavigation/build/RecastDemo/Release/RecastDemo.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/MyGit/github/HiRecastnavigation/build/RecastDemo/Release/RecastDemo.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -169,7 +169,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\recastnavigation\RecastDemo\Include;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -186,10 +186,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\recastnavigation\RecastDemo\Include;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\recastnavigation\RecastDemo\Include;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -197,13 +197,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>opengl32.lib;glu32.lib;..\DebugUtils\MinSizeRel\DebugUtils.lib;..\Detour\MinSizeRel\Detour.lib;..\DetourCrowd\MinSizeRel\DetourCrowd.lib;..\DetourTileCache\MinSizeRel\DetourTileCache.lib;..\Recast\MinSizeRel\Recast.lib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\lib\x86\SDL2main.lib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\lib\x86\SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\DebugUtils\MinSizeRel\DebugUtils.lib;..\Detour\MinSizeRel\Detour.lib;..\DetourCrowd\MinSizeRel\DetourCrowd.lib;..\DetourTileCache\MinSizeRel\DetourTileCache.lib;..\Recast\MinSizeRel\Recast.lib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\lib\x86\SDL2main.lib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\lib\x86\SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/tanxiaoliang.hiram/Desktop/vs/RecastDemo/MinSizeRel/RecastDemo.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/tanxiaoliang.hiram/Desktop/vs/RecastDemo/MinSizeRel/RecastDemo.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/MyGit/github/HiRecastnavigation/build/RecastDemo/MinSizeRel/RecastDemo.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/MyGit/github/HiRecastnavigation/build/RecastDemo/MinSizeRel/RecastDemo.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -212,7 +212,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\recastnavigation\RecastDemo\Include;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -228,10 +228,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\recastnavigation\RecastDemo\Include;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\MyGit\github\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\recastnavigation\RecastDemo\Include;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DebugUtils\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Detour\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourCrowd\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\DetourTileCache\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\..\Recast\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Include;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\fastlz;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -239,13 +239,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>opengl32.lib;glu32.lib;..\DebugUtils\RelWithDebInfo\DebugUtils.lib;..\Detour\RelWithDebInfo\Detour.lib;..\DetourCrowd\RelWithDebInfo\DetourCrowd.lib;..\DetourTileCache\RelWithDebInfo\DetourTileCache.lib;..\Recast\RelWithDebInfo\Recast.lib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\lib\x86\SDL2main.lib;D:\MyGit\github\recastnavigation\RecastDemo\Contrib\SDL\lib\x86\SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\DebugUtils\RelWithDebInfo\DebugUtils.lib;..\Detour\RelWithDebInfo\Detour.lib;..\DetourCrowd\RelWithDebInfo\DetourCrowd.lib;..\DetourTileCache\RelWithDebInfo\DetourTileCache.lib;..\Recast\RelWithDebInfo\Recast.lib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\lib\x86\SDL2main.lib;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\SDL\lib\x86\SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/tanxiaoliang.hiram/Desktop/vs/RecastDemo/RelWithDebInfo/RecastDemo.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/tanxiaoliang.hiram/Desktop/vs/RecastDemo/RelWithDebInfo/RecastDemo.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/MyGit/github/HiRecastnavigation/build/RecastDemo/RelWithDebInfo/RecastDemo.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/MyGit/github/HiRecastnavigation/build/RecastDemo/RelWithDebInfo/RecastDemo.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -253,10 +253,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\MyGit\github\recastnavigation\RecastDemo\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/MyGit/github/recastnavigation/RecastDemo/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/MyGit/github/HiRecastnavigation/recastnavigation/RecastDemo/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HD:/MyGit/github/recastnavigation -BC:/Users/tanxiaoliang.hiram/Desktop/vs --check-stamp-file C:/Users/tanxiaoliang.hiram/Desktop/vs/RecastDemo/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/MyGit/github/HiRecastnavigation/recastnavigation -BD:/MyGit/github/HiRecastnavigation/build --check-stamp-file D:/MyGit/github/HiRecastnavigation/build/RecastDemo/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -264,12 +264,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/MyGit/github/recastnavigation/RecastDemo/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\MyGit\github\recastnavigation\RecastDemo\CMakeLists.txt;D:\MyGit\github\recastnavigation\RecastDemo\cmake\FindSDL2.cmake;D:\MyGit\github\recastnavigation\RecastDemo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\RecastDemo\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/MyGit/github/HiRecastnavigation/recastnavigation/RecastDemo/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\CMakeLists.txt;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\cmake\FindSDL2.cmake;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\MyGit\github\HiRecastnavigation\build\RecastDemo\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/MyGit/github/recastnavigation/RecastDemo/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/MyGit/github/HiRecastnavigation/recastnavigation/RecastDemo/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HD:/MyGit/github/recastnavigation -BC:/Users/tanxiaoliang.hiram/Desktop/vs --check-stamp-file C:/Users/tanxiaoliang.hiram/Desktop/vs/RecastDemo/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/MyGit/github/HiRecastnavigation/recastnavigation -BD:/MyGit/github/HiRecastnavigation/build --check-stamp-file D:/MyGit/github/HiRecastnavigation/build/RecastDemo/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -277,12 +277,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/MyGit/github/recastnavigation/RecastDemo/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\MyGit\github\recastnavigation\RecastDemo\CMakeLists.txt;D:\MyGit\github\recastnavigation\RecastDemo\cmake\FindSDL2.cmake;D:\MyGit\github\recastnavigation\RecastDemo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\RecastDemo\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/MyGit/github/HiRecastnavigation/recastnavigation/RecastDemo/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\CMakeLists.txt;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\cmake\FindSDL2.cmake;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\MyGit\github\HiRecastnavigation\build\RecastDemo\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/MyGit/github/recastnavigation/RecastDemo/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/MyGit/github/HiRecastnavigation/recastnavigation/RecastDemo/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HD:/MyGit/github/recastnavigation -BC:/Users/tanxiaoliang.hiram/Desktop/vs --check-stamp-file C:/Users/tanxiaoliang.hiram/Desktop/vs/RecastDemo/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/MyGit/github/HiRecastnavigation/recastnavigation -BD:/MyGit/github/HiRecastnavigation/build --check-stamp-file D:/MyGit/github/HiRecastnavigation/build/RecastDemo/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -290,12 +290,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/MyGit/github/recastnavigation/RecastDemo/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\MyGit\github\recastnavigation\RecastDemo\CMakeLists.txt;D:\MyGit\github\recastnavigation\RecastDemo\cmake\FindSDL2.cmake;D:\MyGit\github\recastnavigation\RecastDemo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\RecastDemo\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/MyGit/github/HiRecastnavigation/recastnavigation/RecastDemo/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\CMakeLists.txt;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\cmake\FindSDL2.cmake;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\MyGit\github\HiRecastnavigation\build\RecastDemo\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/MyGit/github/recastnavigation/RecastDemo/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/MyGit/github/HiRecastnavigation/recastnavigation/RecastDemo/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HD:/MyGit/github/recastnavigation -BC:/Users/tanxiaoliang.hiram/Desktop/vs --check-stamp-file C:/Users/tanxiaoliang.hiram/Desktop/vs/RecastDemo/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/MyGit/github/HiRecastnavigation/recastnavigation -BD:/MyGit/github/HiRecastnavigation/build --check-stamp-file D:/MyGit/github/HiRecastnavigation/build/RecastDemo/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -303,63 +303,63 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/MyGit/github/recastnavigation/RecastDemo/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\MyGit\github\recastnavigation\RecastDemo\CMakeLists.txt;D:\MyGit\github\recastnavigation\RecastDemo\cmake\FindSDL2.cmake;D:\MyGit\github\recastnavigation\RecastDemo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\RecastDemo\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/MyGit/github/HiRecastnavigation/recastnavigation/RecastDemo/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\CMakeLists.txt;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\cmake\FindSDL2.cmake;D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\MyGit\github\HiRecastnavigation\build\RecastDemo\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Contrib\fastlz\fastlz.c">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Contrib\fastlz\fastlz.c">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\ChunkyTriMesh.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\ConvexVolumeTool.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\CrowdTool.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\Filelist.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\InputGeom.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\MeshLoaderObj.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\NavMeshPruneTool.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\NavMeshTesterTool.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\OffMeshConnectionTool.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\PerfTimer.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\Sample.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\SampleInterfaces.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\Sample_Debug.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\Sample_SoloMesh.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\Sample_TempObstacles.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\Sample_TileMesh.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\TestCase.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\ValueHistory.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\imgui.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\imguiRenderGL.cpp" />
-    <ClCompile Include="D:\MyGit\github\recastnavigation\RecastDemo\Source\main.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\ChunkyTriMesh.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\ConvexVolumeTool.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\CrowdTool.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\Filelist.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\InputGeom.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\MeshLoaderObj.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\NavMeshPruneTool.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\NavMeshTesterTool.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\OffMeshConnectionTool.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\PerfTimer.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\Sample.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\SampleInterfaces.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\Sample_Debug.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\Sample_SoloMesh.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\Sample_TempObstacles.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\Sample_TileMesh.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\TestCase.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\ValueHistory.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\imgui.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\imguiRenderGL.cpp" />
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\RecastDemo\Source\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\tanxiaoliang.hiram\Desktop\vs\ZERO_CHECK.vcxproj">
-      <Project>{97900C22-FA50-3EAD-85BC-32DAD9A6C0B9}</Project>
+    <ProjectReference Include="D:\MyGit\github\HiRecastnavigation\build\ZERO_CHECK.vcxproj">
+      <Project>{0643365E-FDF2-34F4-8CD6-67C4581B7FB3}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\tanxiaoliang.hiram\Desktop\vs\DebugUtils\DebugUtils.vcxproj">
-      <Project>{9EB98AC7-3F8B-3030-8CF2-8A47A3CAD9C4}</Project>
+    <ProjectReference Include="D:\MyGit\github\HiRecastnavigation\build\DebugUtils\DebugUtils.vcxproj">
+      <Project>{0D9CE196-93FE-31FC-A7F4-F140DEDAED15}</Project>
       <Name>DebugUtils</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\tanxiaoliang.hiram\Desktop\vs\Detour\Detour.vcxproj">
-      <Project>{4B0EB989-3870-3299-9081-DDB5A7FAF404}</Project>
+    <ProjectReference Include="D:\MyGit\github\HiRecastnavigation\build\Detour\Detour.vcxproj">
+      <Project>{064CFE92-8BA4-3A7F-96BD-EA1F471FBF72}</Project>
       <Name>Detour</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\tanxiaoliang.hiram\Desktop\vs\DetourCrowd\DetourCrowd.vcxproj">
-      <Project>{71965418-0412-3489-A6BC-80822E269C27}</Project>
+    <ProjectReference Include="D:\MyGit\github\HiRecastnavigation\build\DetourCrowd\DetourCrowd.vcxproj">
+      <Project>{B4535F24-FD9D-37BA-BAA9-61A3AEB6D497}</Project>
       <Name>DetourCrowd</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\tanxiaoliang.hiram\Desktop\vs\DetourTileCache\DetourTileCache.vcxproj">
-      <Project>{6A29243F-D0B1-3194-AC28-4FA1FDAAEA8A}</Project>
+    <ProjectReference Include="D:\MyGit\github\HiRecastnavigation\build\DetourTileCache\DetourTileCache.vcxproj">
+      <Project>{38DF67A5-A07D-36FC-A453-9C9AB1F04C65}</Project>
       <Name>DetourTileCache</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\tanxiaoliang.hiram\Desktop\vs\Recast\Recast.vcxproj">
-      <Project>{8CCB5354-DE98-30A0-878F-C71D1D03BAC0}</Project>
+    <ProjectReference Include="D:\MyGit\github\HiRecastnavigation\build\Recast\Recast.vcxproj">
+      <Project>{C3BC8453-D705-38E7-AE88-EFF48098725D}</Project>
       <Name>Recast</Name>
     </ProjectReference>
   </ItemGroup>

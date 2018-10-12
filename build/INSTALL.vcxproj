@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{ABE4AD5F-9D57-3BDC-B52D-EBB84AFB26CB}</ProjectGuid>
+    <ProjectGuid>{39CE0D38-BB31-31D9-AC1D-38D33AFFA0C9}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
@@ -150,7 +150,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\3c16c0f44d82e7b2e7433d7142d7dfdb\INSTALL_force.rule">
+    <CustomBuild Include="D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\77d997226f037aea6bccf4795cbb1745\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 cd .
@@ -161,8 +161,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/3c16c0f44d82e7b2e7433d7142d7dfdb/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/77d997226f037aea6bccf4795cbb1745/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
@@ -174,8 +174,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/3c16c0f44d82e7b2e7433d7142d7dfdb/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/77d997226f037aea6bccf4795cbb1745/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
@@ -187,8 +187,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/3c16c0f44d82e7b2e7433d7142d7dfdb/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/77d997226f037aea6bccf4795cbb1745/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
@@ -200,18 +200,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/3c16c0f44d82e7b2e7433d7142d7dfdb/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\tanxiaoliang.hiram\Desktop\vs\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/77d997226f037aea6bccf4795cbb1745/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\MyGit\github\HiRecastnavigation\build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\tanxiaoliang.hiram\Desktop\vs\ZERO_CHECK.vcxproj">
-      <Project>{97900C22-FA50-3EAD-85BC-32DAD9A6C0B9}</Project>
+    <ProjectReference Include="D:\MyGit\github\HiRecastnavigation\build\ZERO_CHECK.vcxproj">
+      <Project>{0643365E-FDF2-34F4-8CD6-67C4581B7FB3}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\tanxiaoliang.hiram\Desktop\vs\ALL_BUILD.vcxproj">
-      <Project>{6583FAEA-D155-3F93-BEC7-071C88A854BD}</Project>
+    <ProjectReference Include="D:\MyGit\github\HiRecastnavigation\build\ALL_BUILD.vcxproj">
+      <Project>{8F423360-CD42-3812-AA38-986B4F4600D0}</Project>
       <Name>ALL_BUILD</Name>
     </ProjectReference>
   </ItemGroup>

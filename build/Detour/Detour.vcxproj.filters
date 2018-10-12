@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\Detour\Source\DetourAlloc.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Detour\Source\DetourAlloc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\Detour\Source\DetourAssert.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Detour\Source\DetourAssert.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\Detour\Source\DetourCommon.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Detour\Source\DetourCommon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\Detour\Source\DetourNavMesh.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Detour\Source\DetourNavMesh.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\Detour\Source\DetourNavMeshBuilder.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Detour\Source\DetourNavMeshBuilder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\Detour\Source\DetourNavMeshQuery.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Detour\Source\DetourNavMeshQuery.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\MyGit\github\recastnavigation\Detour\Source\DetourNode.cpp">
+    <ClCompile Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Detour\Source\DetourNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\MyGit\github\recastnavigation\Detour\CMakeLists.txt" />
+    <CustomBuild Include="D:\MyGit\github\HiRecastnavigation\recastnavigation\Detour\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{02C9CD33-97D4-394A-A998-87008863275A}</UniqueIdentifier>
+      <UniqueIdentifier>{47289597-2681-340D-A3C6-868F419A1B25}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

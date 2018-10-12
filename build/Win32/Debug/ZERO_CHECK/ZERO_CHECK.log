@@ -1,22 +1,9 @@
 ﻿  Checking Build System
-  CMake is re-running because C:/Users/tanxiaoliang.hiram/Desktop/vs/CMakeFiles/generate.stamp dependency file is missing.
-  -- Building for: Visual Studio 15 2017
-  -- The C compiler identification is MSVC 19.14.26431.0
-  -- The CXX compiler identification is MSVC 19.14.26431.0
-  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.14.26428/bin/Hostx86/x86/cl.exe
-  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.14.26428/bin/Hostx86/x86/cl.exe -- works
-  -- Detecting C compiler ABI info
-  -- Detecting C compiler ABI info - done
-  -- Detecting C compile features
-  -- Detecting C compile features - done
-  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.14.26428/bin/Hostx86/x86/cl.exe
-  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.14.26428/bin/Hostx86/x86/cl.exe -- works
-  -- Detecting CXX compiler ABI info
-  -- Detecting CXX compiler ABI info - done
-  -- Detecting CXX compile features
-  -- Detecting CXX compile features - done
-  -- Found OpenGL: opengl32   
-  -- Found SDL2: D:/MyGit/github/recastnavigation/RecastDemo/Contrib/SDL/lib/x86/SDL2.lib  
-  -- Configuring done
-  -- Generating done
-  -- Build files have been written to: C:/Users/tanxiaoliang.hiram/Desktop/vs
+  CMake does not need to re-run because D:/MyGit/github/HiRecastnavigation/build/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because D:/MyGit/github/HiRecastnavigation/build/DebugUtils/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because D:/MyGit/github/HiRecastnavigation/build/Detour/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because D:/MyGit/github/HiRecastnavigation/build/DetourCrowd/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because D:/MyGit/github/HiRecastnavigation/build/DetourTileCache/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because D:/MyGit/github/HiRecastnavigation/build/Recast/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because D:/MyGit/github/HiRecastnavigation/build/RecastDemo/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because D:/MyGit/github/HiRecastnavigation/build/Tests/CMakeFiles/generate.stamp is up-to-date.

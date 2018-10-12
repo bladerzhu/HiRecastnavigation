@@ -1,1 +1,10 @@
-﻿  DetourCrowd.vcxproj -> C:\Users\tanxiaoliang.hiram\Desktop\vs\DetourCrowd\Debug\DetourCrowd.lib
+﻿  Building Custom Rule D:/MyGit/github/HiRecastnavigation/recastnavigation/DetourCrowd/CMakeLists.txt
+  CMake does not need to re-run because D:/MyGit/github/HiRecastnavigation/build/DetourCrowd/CMakeFiles/generate.stamp is up-to-date.
+  DetourCrowd.cpp
+  DetourLocalBoundary.cpp
+  DetourObstacleAvoidance.cpp
+  DetourPathCorridor.cpp
+  DetourPathQueue.cpp
+  DetourProximityGrid.cpp
+  正在生成代码...
+  DetourCrowd.vcxproj -> D:\MyGit\github\HiRecastnavigation\build\DetourCrowd\Debug\DetourCrowd.lib

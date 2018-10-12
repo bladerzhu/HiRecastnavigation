@@ -1,1 +1,11 @@
-﻿  Detour.vcxproj -> C:\Users\tanxiaoliang.hiram\Desktop\vs\Detour\Debug\Detour.lib
+﻿  Building Custom Rule D:/MyGit/github/HiRecastnavigation/recastnavigation/Detour/CMakeLists.txt
+  CMake does not need to re-run because D:/MyGit/github/HiRecastnavigation/build/Detour/CMakeFiles/generate.stamp is up-to-date.
+  DetourAlloc.cpp
+  DetourAssert.cpp
+  DetourCommon.cpp
+  DetourNavMesh.cpp
+  DetourNavMeshBuilder.cpp
+  DetourNavMeshQuery.cpp
+  DetourNode.cpp
+  正在生成代码...
+  Detour.vcxproj -> D:\MyGit\github\HiRecastnavigation\build\Detour\Debug\Detour.lib
