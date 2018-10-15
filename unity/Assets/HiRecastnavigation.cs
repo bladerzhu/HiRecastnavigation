@@ -1,4 +1,10 @@
-﻿using System;
+﻿/***************************************************************
+ * Description: This used to export obj file
+ * Document: https://github.com/hiramtan/HiRecastnavigation
+ * Author: hiramtan@live.com
+ ****************************************************************************/
+
+using System;
 using System.Runtime.InteropServices;
 
 namespace HiRecastnavigation
