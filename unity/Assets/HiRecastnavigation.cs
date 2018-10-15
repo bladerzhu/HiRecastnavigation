@@ -1,4 +1,4 @@
-﻿
+﻿using System;
 using System.Runtime.InteropServices;
 
 namespace HiRecastnavigation
@@ -7,22 +7,27 @@ namespace HiRecastnavigation
     {
         private const string PluginsName = "HiRecastnavigation";
 
+        #region glue
+        //csharp call c++
+        [DllImport(PluginsName)]
+        public static extern int TestCsharpCallC(int a, int b);
+
+
+        //c++ call csharp
         public static void Init()
         {
-
+            Func<int, int, int> delTestCCallCsharp = new Func<int, int, int>(CsharpFunction);
+            IntPtr funcPtr = Marshal.GetFunctionPointerForDelegate(delTestCCallCsharp);
+            TestCCallCsharp(funcPtr);
         }
 
-
-
-        #region glue
-
         [DllImport(PluginsName)]
-        public static extern int TestCSharpCallC(int a, int b);
+        static extern int TestCCallCsharp(IntPtr csharPtr);
 
-
-        [DllImport(PluginsName)]
-        public static extern int TestCCallCSharp(int a, int b);
-
+        private static int CsharpFunction(int a, int b)
+        {
+            return a + b;
+        }
         #endregion
     }
 }

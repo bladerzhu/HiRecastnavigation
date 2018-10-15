@@ -1,18 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using System.Runtime.InteropServices;
+﻿using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Example : MonoBehaviour
 {
-    [DllImport("HiRecastnavigation")]
-    private static extern int MyADD(int x, int y);
-   
+    
     // Use this for initialization
     void Start()
     {
-        int i = MyADD(9, 9);
-        Debug.LogError(i);
+
+        var test = HiRecastnavigation.Navigation.TestCsharpCallC(3, 4);
+
+        Debug.LogError(test);
     }
 
     // Update is called once per frame

@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  HiRecastnavigation.cpp
+  正在生成代码...
+d:\mygit\github\hirecastnavigation\visual\hirecastnavigation\hirecastnavigation\hirecastnavigation.cpp(10): error C4716: “TestCsharpCallC”: 必须返回一个值
