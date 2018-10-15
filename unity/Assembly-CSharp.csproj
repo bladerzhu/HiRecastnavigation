@@ -61,7 +61,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Example.cs" />
+    <Compile Include="Assets\HiRecastnavigation.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/MyGit/github/HiRecastnavigation/unity/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
