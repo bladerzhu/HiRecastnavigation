@@ -2,4 +2,5 @@
   dllmain.cpp
   HiRecastnavigation.cpp
   正在生成代码...
-d:\mygit\github\hirecastnavigation\visual\hirecastnavigation\hirecastnavigation\hirecastnavigation.cpp(10): error C4716: “TestCsharpCallC”: 必须返回一个值
+    正在创建库 D:\MyGit\github\HiRecastnavigation\visual\HiRecastnavigation\Debug\HiRecastnavigation.lib 和对象 D:\MyGit\github\HiRecastnavigation\visual\HiRecastnavigation\Debug\HiRecastnavigation.exp
+  HiRecastnavigation.vcxproj -> D:\MyGit\github\HiRecastnavigation\visual\HiRecastnavigation\Debug\HiRecastnavigation.dll
