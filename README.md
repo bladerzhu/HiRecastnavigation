@@ -14,8 +14,7 @@ Solution for using recastnavigation in unity and server side, they both use same
 - 导入引用类库,cmake编译RecastDemo工程,用户可以直接拿来使用
 - 转换unity坐标系,导出unity场景数据为obj文件.
 - 封装recastnavigation c++源码
-- unity中加载导航数据
-- 制作unity plugins,在unity中使用recastnavigation
+- 在unity中使用recastnavigation接口(加载数据,导航接口...)
 - 编译不同平台dll(pc,mac,android,ios)
 - 验证导航逻辑在各平台可用
 
